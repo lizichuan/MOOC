@@ -42,12 +42,15 @@ long long int numOfInversion(vector<int> &data) {
 int main()
 {
     freopen("f://IntegerArray.txt", "r", stdin);
+
     vector<int> data;
     int num;
     while (scanf("%d", &num) != EOF) {
         data.push_back(num);
+    
     }
     long long int ans = numOfInversion(data);
     printf("%lld\n", ans);
+    
     return 0;
 }
